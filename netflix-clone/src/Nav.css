@@ -1,0 +1,31 @@
+.nav {
+  height: 25px;
+  position: fixed;
+  padding: 20px;
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background-color: black;
+}
+.nav_logo {
+  width: 80px;
+}
+.nav_avatar {
+  position: relative;
+  right: 20px;
+  width: 30px;
+}
+/* @media screen and (max-width: 750px) {
+  .nav {
+    width: 94.6vw;
+  }
+  .nav_avatar {
+    position: relative;
+    right: 20px;
+  }
+} */
